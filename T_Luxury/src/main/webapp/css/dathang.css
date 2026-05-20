@@ -1,0 +1,230 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 22px;
+    font-weight: bold;
+    color: #7b2cbf;
+    text-decoration: none; 
+    color: #7b2cbf;    
+}
+
+.logo img {
+    width: 30px;  
+    height: 30px;
+    object-fit: cover;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #7b2cbf;
+}
+
+nav a.active {
+    color: #7b2cbf;
+    font-weight: bold;
+    border-bottom: 2px solid #7b2cbf;
+    padding-bottom: 3px;
+}
+
+.btn {
+    background: #7b2cbf;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* CATEGORY */
+.category {
+    text-align: center;
+    margin: 20px;
+}
+
+.category span {
+    background: #e8d9f3;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* SEARCH */
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.search input {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #7b2cbf; /* tím đậm */
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background: #5a189a;
+}
+
+.order-container {
+    display: flex;
+    gap: 50px;
+    padding: 50px 80px;
+}
+
+/* SẢN PHẨM */
+.order-product {
+    width: 40%;
+    text-align: center;
+}
+
+.order-product img {
+    width: 300px;
+    border-radius: 12px;
+}
+
+/* FORM */
+.order-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form h3 {
+    margin-bottom: 15px;
+    color: #7b2cbf;
+    font-size: 30px;
+}
+
+.order-form input,
+.order-form textarea {
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.order-form textarea {
+    height: 80px;
+}
+
+.order-form button {
+    margin-top: 10px;
+    border: none;     
+    outline: none; 
+}
+
+.payment-box{
+    background: #f7eefb;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.payment-box h3{
+    color: #8e24aa;
+    margin-bottom: 10px;
+}
+
+.payment-box img{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: bray;
+    padding: 40px 60px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-left h3 {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social img {
+    width: 28px;    
+    height: 28px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-middle, .footer-right {
+    width: 20%;
+}
+
+.footer-middle h4,
+.footer-right h4 {
+    margin-bottom: 10px;
+}
+
+.footer-middle p,
+.footer-right p {
+    margin: 5px 0;
+    color: #555;
+}

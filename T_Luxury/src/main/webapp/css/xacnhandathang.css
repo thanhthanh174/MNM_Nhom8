@@ -1,0 +1,107 @@
+@charset "UTF-8";
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fdfaf5;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container {
+    width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* TITLE */
+h2 {
+    text-align: center;
+    color: #ff4d6d;
+}
+
+/* INFO */
+.info p {
+    margin: 5px 0;
+}
+
+/* PRODUCT */
+.product-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* BILL */
+.bill {
+    background: #fff0f3;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.bill p {
+    margin: 5px 0;
+}
+
+.bill h2 {
+    color: red;
+    margin-top: 10px;
+}
+
+/* NOTE */
+p b {
+    color: #333;
+}
+
+/* BUTTONS */
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a {
+    text-decoration: none;
+}
+
+.btn-home, .btn-shop {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* HOME */
+.btn-home {
+    background: #6c757d;
+    color: white;
+}
+
+/* SHOP */
+.btn-shop {
+    background: #ff4d6d;
+    color: white;
+}
+
+/* HOVER */
+.btn-home:hover {
+    background: #5a6268;
+}
+
+.btn-shop:hover {
+    background: #e8435c;
+}

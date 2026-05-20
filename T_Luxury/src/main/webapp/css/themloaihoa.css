@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+h2 {
+    color: #e91e63;
+}
+
+input, select {
+    width: 300px;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: pink;
+    border: none;
+    cursor: pointer;
+}

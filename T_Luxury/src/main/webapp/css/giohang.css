@@ -1,0 +1,267 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 22px;
+    font-weight: bold;
+    color: #7b2cbf;
+    text-decoration: none; 
+    color: #7b2cbf;    
+}
+
+.logo img {
+    width: 30px;  
+    height: 30px;
+    object-fit: cover;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #7b2cbf;
+}
+
+nav a.active {
+    color: #7b2cbf;
+    font-weight: bold;
+    border-bottom: 2px solid #7b2cbf;
+    padding-bottom: 3px;
+}
+
+.btn {
+    background: #7b2cbf;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* CATEGORY */
+.category {
+    text-align: center;
+    margin: 20px;
+}
+
+.category span {
+    background: #e8d9f3;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* SEARCH */
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.search input {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #7b2cbf; /* tím đậm */
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search button:hover {
+    background: #5a189a;
+}
+
+.cart-container {
+    display: flex;
+    gap: 40px;
+    padding: 50px 80px;
+}
+
+/* LEFT */
+.cart-left {
+    width: 65%;
+}
+
+/* ITEM */
+.cart-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 12px;
+    align-items: center;
+}
+
+/* ẢNH FIX LỖI */
+.cart-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* TEXT */
+.cart-item .info h3 {
+    margin: 0;
+}
+
+.cart-item .info p {
+    color: #666;
+}
+
+/* RIGHT */
+.cart-right {
+    width: 30%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    height: fit-content;
+    text-align: center;
+}
+
+/* BUTTON */
+.btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #7b2cbf;
+    color: white;
+    cursor: pointer;
+}
+
+/* LEFT */
+.cart-left{
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.cart-left img{
+    width: 120px;
+    border-radius: 12px;
+}
+
+.quantity button{
+    background: #cdb4db;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* MIDDLE */
+.cart-middle{
+    width: 25%;
+    background: #f7f3fa;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* RIGHT */
+.cart-right{
+    width: 25%;
+    background: #f7f3fa;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cart-right h2{
+    margin: 15px 0;
+    color: #7b2cbf;
+}
+
+/* FOOTER */
+.footer {
+    background: bray;
+    padding: 40px 60px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-left h3 {
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.social img {
+    width: 28px;    
+    height: 28px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-middle, .footer-right {
+    width: 20%;
+}
+
+.footer-middle h4,
+.footer-right h4 {
+    margin-bottom: 10px;
+}
+
+.footer-middle p,
+.footer-right p {
+    margin: 5px 0;
+    color: #555;
+}
